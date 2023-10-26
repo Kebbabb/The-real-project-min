@@ -1,0 +1,5 @@
+import pymongo
+
+client=pymongo.MongoClient("mongodb+srv://MoonShadow:Sevilla123@moonshadow.vik8tcu.mongodb.net/globodain")
+
+db=client["globodain"]
